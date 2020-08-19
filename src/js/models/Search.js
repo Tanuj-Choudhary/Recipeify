@@ -8,7 +8,7 @@ export default class Search {
   async getRecipes() {
     try {
       const response = await axios.get(
-        `https://api.edamam.com/search?q=${this.query}&app_id=${process.env.RECIPE_API_APP_ID}&app_key=${process.env.RECIPE_API_KEY}`
+        `https://api.edamam.com/search?q=${this.query}&app_id=${process.env.RECIPE_API_APP_ID}&app_key=${process.env.RECIPE_API_KEY}&from=0&to=30`
       );
       this.recipes = response.data.hits;
     } catch (err) {
