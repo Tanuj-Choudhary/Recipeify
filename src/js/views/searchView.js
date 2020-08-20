@@ -5,7 +5,7 @@ import { elements } from './utils';
  * Adds ... after 30 characters and ignore rest
  * Full word is added or ignored
  */
-const limitRecipeTitle = (title, limit = 30) => {
+export const limitRecipeTitle = (title, limit = 30) => {
   const newTitle = [];
 
   if (title.length > limit) {
