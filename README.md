@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Tanuj-Choudhary/Budget-App">
+  <a href="https://github.com/Tanuj-Choudhary/Recipeify">
     <img src="resources/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -76,7 +76,7 @@ npm install npm@latest -g
 
 1. Clone the repo
 ```sh
-git clone https://github.com/Tanuj-Choudhary/Budget-App.git
+git clone https://github.com/Tanuj-Choudhary/Recipeify.git
 ```
 3. Install NPM packages
 ```sh
